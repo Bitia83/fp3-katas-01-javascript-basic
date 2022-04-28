@@ -152,6 +152,11 @@ describe("Operaciones con JavaScript", () => {
 
     test("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+        let a = 10; 
+        let b = 100;
+        let c = undefined;
+        let d = "Hello";
+        let e = "E";
 
         expect(a > 9).toBe(true);
         expect(a < 11).toBe(true);
